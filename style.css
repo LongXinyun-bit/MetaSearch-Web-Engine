@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #ffffff;
+}
+
+.logo {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+
+.logo span:nth-child(1) {
+    color: #EA4335;
+}
+
+/* M (红色) */
+.logo span:nth-child(2) {
+    color: #4285F4;
+}
+
+/* y (蓝色) */
+.logo span:nth-child(3) {
+    color: #FBBC05;
+}
+
+/* G (黄色) */
+.logo span:nth-child(4) {
+    color: #EA4335;
+}
+
+/* o (红色) */
+.logo span:nth-child(5) {
+    color: #FBBC05;
+}
+
+/* o (黄色) */
+.logo span:nth-child(6) {
+    color: #4285F4;
+}
+
+/* g (蓝色) */
+.logo span:nth-child(7) {
+    color: #34A853;
+}
+
+/* l (绿色) */
+.logo span:nth-child(8) {
+    color: #EA4335;
+}
+
+/* e (红色) */
+
+/* 新增 Image 的样式 */
+.logo span.image {
+    color: black;
+    /* 让 Image 变成黑色 */
+    font-family: cursive;
+    /* 让 Image 变成花体 */
+}
+
+.search-container {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search-box {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    outline: none;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 14px;
+    margin: 5px;
+    background-color: #f8f9fa;
+    border: 1px solid #dfe1e5;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #f1f3f4;
+}
+
+.top-right-links {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
